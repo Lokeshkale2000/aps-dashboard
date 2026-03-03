@@ -71,7 +71,6 @@ export default function ScanDetail() {
         <header className={s.topbar}>
           <Breadcrumb items={[
             {type:'button',label:'Scan',path:'/dashboard'},
-            {type:'icon',icon:'home'},
             {type:'separator',label:'/'},
             {type:'button',label:'Private Assets',path:'/dashboard'},
             {type:'separator',label:'/'},
