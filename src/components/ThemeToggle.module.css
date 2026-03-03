@@ -1,0 +1,5 @@
+.btn{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;background:#1f1f1f;border:1px solid #333333;border-radius:9999px;color:#a0a0a0;font-size:12px;font-weight:500;transition:all .15s;white-space:nowrap}
+.btn:hover{border-color:#0cc8a8;color:#0cc8a8;background:rgba(12,200,168,.13)}
+.btn svg{transition:transform .3s ease}
+.btn:hover svg{transform:rotate(15deg)}
+.compact{padding:6px;gap:0;border-radius:7px}

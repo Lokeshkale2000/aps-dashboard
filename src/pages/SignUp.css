@@ -1,0 +1,51 @@
+.signupPageX{display:flex;align-items:center;justify-content:flex-start;min-height:100vh;background:radial-gradient(circle at 80% 80%,#ff3c3c55,transparent 40%),radial-gradient(circle at 20% 20%,#3b82f655,transparent 40%),linear-gradient(135deg,#0a0f1f,#111827,#1e3a8a,#4c1d95,#7f1d1d);padding:20px 20px 20px 80px}
+.signupHeroX{flex:1;background:transparent;display:flex;align-items:center;height:80vh}
+.heroContentX{padding:60px;max-width:520px}
+.brandX{display:flex;align-items:center;gap:8px;margin-bottom:40px}
+.brandDotX{width:10px;height:10px;border-radius:50%;background:#14b8a6;border:8px solid #14b8a6}
+.brandNameX{font-size:20px;font-weight:700;color:#f1f5f9}
+.heroTitleX{font-size:36px;font-weight:800;color:#f1f5f9;margin-bottom:30px}
+.heroAccentX{color:#14b8a6}
+.heroSubX{font-size:12px;color:#94a3b8;margin-bottom:12px;letter-spacing:1px}
+.heroListX{list-style:none;padding:0;margin-bottom:30px}
+.heroListX li{margin-bottom:10px;color:#cbd5e1;font-size:14px}
+.checkX{color:#14b8a6;margin-right:6px}
+.heroTrustX{color:#94a3b8;font-size:13px}
+.signupRightX{width:460px;background:#fff;display:flex;align-items:center;justify-content:center;padding:40px 30px;height:80vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5);position:relative;margin-right:10%}
+[data-theme=dark] .signupRightX{background:#111827}
+.signupCardX{width:100%;max-width:360px}
+.cardTitleX{font-size:26px;font-weight:700;color:#0f172a;margin-bottom:6px}
+[data-theme=dark] .cardTitleX{color:#f1f5f9}
+.cardSubX{font-size:14px;color:#6b7280;margin-bottom:24px}
+[data-theme=dark] .cardSubX{color:#94a3b8}
+.linkBtnX{background:none;border:none;color:#14b8a6;cursor:pointer}
+.formRowX{display:flex;flex-direction:column;gap:0}
+.formGroupX{margin-bottom:14px;position:relative}
+.inputX{width:100%;padding:12px;background:#f9fafb;border:1px solid #e5e7eb;border-radius:6px;color:#111827}
+.inputX::placeholder{color:#9ca3af}
+.inputX:focus{border-color:#14b8a6;outline:none;box-shadow:0 0 0 3px rgba(20,184,166,.1)}
+.passToggleX{position:absolute;right:10px;top:10px;background:none;border:none;color:#6b7280;cursor:pointer}
+[data-theme=dark] .passToggleX{color:#94a3b8}
+.termsX{font-size:12px;color:#6b7280;margin-bottom:18px}
+[data-theme=dark] .termsX{color:#94a3b8}
+.createBtnX{width:100%;padding:13px;background:#14b8a6;color:#fff;font-weight:700;border:none;border-radius:50px;cursor:pointer;margin-bottom:16px}
+.createBtnX:hover{background:#0d9488}
+[data-theme=dark] .createBtnX{color:#0f172a}
+[data-theme=dark] .createBtnX:hover{opacity:.9;background:#14b8a6}
+.socialRowX{display:flex;gap:10px}
+.socialBtnX{flex:1;padding:12.6px 14px;border-radius:50px;border:1px solid #e5e7eb;background:#fff;color:#111827;cursor:pointer;display:flex;align-items:center;justify-content:center;min-height:48px}
+.socialBtnX svg{width:28px;height:28px}
+.socialBtnX.blue svg{width:32px;height:32px}
+[data-theme=dark] .socialBtnX{border-color:#1f2937;background:#1a1a1a;color:#fff}
+.socialBtnX.white{background:#fff;color:#000}
+.socialBtnX.black{background:#000;color:#fff;border-color:#000}
+.socialBtnX.black img{filter:brightness(0) saturate(100%) invert(100%)}
+.socialBtnX.blue{background:#4a90d9;color:#fff;border-color:#4a90d9}
+.socialBtnX.blue img{filter:brightness(0) invert(1)}
+[data-theme=dark] .socialBtnX.blue{background:#4a90d9}
+@media (max-width:900px){
+.signupPageX{flex-direction:column;padding:10px;justify-content:center}
+.signupHeroX{height:auto;min-height:40vh}
+.signupRightX{width:100%;height:auto}
+.formRowX{grid-template-columns:1fr}
+}
