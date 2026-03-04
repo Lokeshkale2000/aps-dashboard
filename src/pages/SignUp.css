@@ -14,9 +14,9 @@
 .signupRightX{width:460px;background:#fff;display:flex;align-items:center;justify-content:center;padding:40px 30px;height:80vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5);position:relative;margin-right:10%}
 [data-theme=dark] .signupRightX{background:#111827}
 .signupCardX{width:100%;max-width:360px}
-.cardTitleX{font-size:26px;font-weight:700;color:#0f172a;margin-bottom:6px}
+.cardTitleX{font-size:26px;font-weight:700;color:#0f172a;margin-bottom:6px;text-align:center}
 [data-theme=dark] .cardTitleX{color:#f1f5f9}
-.cardSubX{font-size:14px;color:#6b7280;margin-bottom:24px}
+.cardSubX{font-size:14px;color:#6b7280;margin-bottom:24px;text-align:center}
 [data-theme=dark] .cardSubX{color:#94a3b8}
 .linkBtnX{background:none;border:none;color:#14b8a6;cursor:pointer}
 .formRowX{display:flex;flex-direction:column;gap:0}
