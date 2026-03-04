@@ -44,17 +44,18 @@
 .socialBtnX.blue img{filter:brightness(0) invert(1)}
 [data-theme=dark] .socialBtnX.blue{background:#4a90d9}
 @media (max-width:900px){
-.signupPageX{flex-direction:column;padding:10px;justify-content:center}
+.signupPageX{flex-direction:column;padding:10px;justify-content:center;position:relative}
 .signupHeroX{height:auto;min-height:40vh}
 .signupRightX{width:100%;height:auto;margin-right:0}
 .formRowX{grid-template-columns:1fr}
-.heroContentX{padding:30px}
+.heroContentX{padding:30px;margin-top:60px}
 .heroTitleX{font-size:28px}
 .brandNameX{font-size:24px}
+.brandX{top:15px;left:15px}
 }
 @media (max-width:640px){
 .signupPageX{padding:10px}
-.heroContentX{padding:20px}
+.heroContentX{padding:20px;margin-top:50px}
 .heroTitleX{font-size:24px}
 .brandNameX{font-size:20px}
 .brandDotX{width:16px;height:16px;border:6px solid #14b8a6;margin-right:12px}
@@ -63,4 +64,7 @@
 .socialBtnX{padding:10px 12px;min-height:44px}
 .socialBtnX svg{width:24px;height:24px}
 .socialBtnX.blue svg{width:28px;height:28px}
+.brandX{top:10px;left:10px}
+.brandNameX{font-size:18px}
+.brandDotX{width:14px;height:14px;border:5px solid #14b8a6;margin-right:10px}
 }
