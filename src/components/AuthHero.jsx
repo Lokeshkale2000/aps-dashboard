@@ -24,7 +24,7 @@ export default function AuthHero() {
             <span className="checkX">✓</span> Generate enterprise reports
           </li>
         </ul>
-        <div className="heroTrustX">★ Rated 4.5/5 (100k+ reviews)</div>
+        <div className="heroTrustX"><strong>★ Rated 4.5/5</strong> (100k+ reviews)</div>
       </div>
     </div>
   );

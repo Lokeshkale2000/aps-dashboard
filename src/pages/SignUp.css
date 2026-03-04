@@ -1,7 +1,7 @@
-.signupPageX{display:flex;align-items:center;justify-content:flex-start;min-height:100vh;background:radial-gradient(circle at 80% 80%,#ff3c3c55,transparent 40%),radial-gradient(circle at 20% 20%,#3b82f655,transparent 40%),linear-gradient(135deg,#0a0f1f,#111827,#1e3a8a,#4c1d95,#7f1d1d);padding:20px 20px 20px 80px}
+.signupPageX{display:flex;align-items:center;justify-content:flex-start;min-height:100vh;background:radial-gradient(circle at 80% 80%,#ff3c3c55,transparent 40%),radial-gradient(circle at 20% 20%,#3b82f655,transparent 40%),linear-gradient(135deg,#0a0f1f,#111827,#1e3a8a,#4c1d95,#7f1d1d);padding:20px 20px 20px 80px;position:relative}
 .signupHeroX{flex:1;background:transparent;display:flex;align-items:center;height:80vh}
 .heroContentX{padding:60px;max-width:520px}
-.brandX{display:flex;align-items:center;gap:8px;margin-bottom:40px}
+.brandX{display:flex;align-items:center;gap:8px;position:absolute;top:30px;left:30px;z-index:10}
 .brandDotX{width:24px;height:24px;border-radius:50%;background:#fff;border:8px solid #14b8a6;display:inline-block;margin-right:16px;font-size:0;line-height:0;vertical-align:middle}
 .brandNameX{font-size:20px;font-weight:700;color:#f1f5f9}
 .heroTitleX{font-size:36px;font-weight:800;color:#f1f5f9;margin-bottom:30px}
@@ -10,7 +10,7 @@
 .heroListX{list-style:none;padding:0;margin-bottom:30px}
 .heroListX li{margin-bottom:10px;color:#cbd5e1;font-size:14px}
 .checkX{color:#14b8a6;margin-right:6px}
-.heroTrustX{color:#94a3b8;font-size:13px}
+.heroTrustX{color:#fff;font-size:13px}
 .signupRightX{width:460px;background:#fff;display:flex;align-items:center;justify-content:center;padding:40px 30px;height:80vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5);position:relative;margin-right:10%}
 [data-theme=dark] .signupRightX{background:#111827}
 .signupCardX{width:100%;max-width:360px}
