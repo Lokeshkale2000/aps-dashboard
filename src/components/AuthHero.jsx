@@ -3,8 +3,10 @@ export default function AuthHero() {
     <div className="signupHeroX">
       <div className="heroContentX">
         <div className="brandX">
-          <div className="brandDotX" />
-          <span className="brandNameX">aps</span>
+          <div />
+          <span className="brandNameX">
+            <span className="brandDotX">.</span>aps
+          </span>
         </div>
         <h1 className="heroTitleX">
           Expert level Cybersecurity <br />
@@ -12,12 +14,18 @@ export default function AuthHero() {
         </h1>
         <p className="heroSubX">WHAT'S INCLUDED</p>
         <ul className="heroListX">
-          <li><span className="checkX">✓</span> Discover hidden vulnerabilities</li>
-          <li><span className="checkX">✓</span> Deliver findings in hours</li>
-          <li><span className="checkX">✓</span> Generate enterprise reports</li>
+          <li>
+            <span className="checkX">✓</span> Discover hidden vulnerabilities
+          </li>
+          <li>
+            <span className="checkX">✓</span> Deliver findings in hours
+          </li>
+          <li>
+            <span className="checkX">✓</span> Generate enterprise reports
+          </li>
         </ul>
         <div className="heroTrustX">★ Rated 4.5/5 (100k+ reviews)</div>
       </div>
     </div>
-  )
+  );
 }

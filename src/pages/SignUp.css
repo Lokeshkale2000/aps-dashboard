@@ -2,7 +2,7 @@
 .signupHeroX{flex:1;background:transparent;display:flex;align-items:center;height:80vh}
 .heroContentX{padding:60px;max-width:520px}
 .brandX{display:flex;align-items:center;gap:8px;margin-bottom:40px}
-.brandDotX{width:10px;height:10px;border-radius:50%;background:#14b8a6;border:8px solid #14b8a6}
+.brandDotX{width:24px;height:24px;border-radius:50%;background:#fff;border:8px solid #14b8a6;display:inline-block;margin-right:16px;font-size:0;line-height:0;vertical-align:middle}
 .brandNameX{font-size:20px;font-weight:700;color:#f1f5f9}
 .heroTitleX{font-size:36px;font-weight:800;color:#f1f5f9;margin-bottom:30px}
 .heroAccentX{color:#14b8a6}
@@ -46,6 +46,21 @@
 @media (max-width:900px){
 .signupPageX{flex-direction:column;padding:10px;justify-content:center}
 .signupHeroX{height:auto;min-height:40vh}
-.signupRightX{width:100%;height:auto}
+.signupRightX{width:100%;height:auto;margin-right:0}
 .formRowX{grid-template-columns:1fr}
+.heroContentX{padding:30px}
+.heroTitleX{font-size:28px}
+.brandNameX{font-size:24px}
+}
+@media (max-width:640px){
+.signupPageX{padding:10px}
+.heroContentX{padding:20px}
+.heroTitleX{font-size:24px}
+.brandNameX{font-size:20px}
+.brandDotX{width:16px;height:16px;border:6px solid #14b8a6;margin-right:12px}
+.signupRightX{padding:20px 15px}
+.cardTitleX{font-size:22px}
+.socialBtnX{padding:10px 12px;min-height:44px}
+.socialBtnX svg{width:24px;height:24px}
+.socialBtnX.blue svg{width:28px;height:28px}
 }

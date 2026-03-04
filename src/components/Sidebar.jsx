@@ -20,8 +20,9 @@ export default function Sidebar({ active, onNav }) {
   return (
     <aside className={s.sidebar}>
       <button className={s.logo} onClick={() => navigate('/dashboard')}>
-        <span className={s.logoDot} />
-        <span className={s.logoText}>aps</span>
+        <span className={s.logoText}>
+          <span className={s.logoDot}>.</span>aps
+        </span>
       </button>
       <nav className={s.nav}>
         <ul className={s.list}>{NAV_MAIN.map(i => <Item key={i.id} item={i} />)}</ul>

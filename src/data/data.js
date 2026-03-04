@@ -1,5 +1,3 @@
-// ─── APS Platform — Static Data ──────────────────────────────────────────
-
 export const ORG = {
   name: 'Project X', owner: 'Nammgiri',
   totalScans: 100, scheduled: 1000, rescans: 100, failedScans: 100,
@@ -29,8 +27,20 @@ export const SCANS = [
   { id:14, name:'Cloud Infra',     type:'Greybox',  status:'Completed', progress:100, vuln:{c:4,h:3,m:5,l:2}, ago:'5d ago' },
 ]
 
+const getCurrentDateTime = () => {
+  const now = new Date()
+  const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+  const month = months[now.getMonth()]
+  const day = now.getDate()
+  const hours = now.getHours()
+  const minutes = now.getMinutes().toString().padStart(2, '0')
+  const ampm = hours >= 12 ? 'PM' : 'AM'
+  const displayHours = hours % 12 || 12
+  return `${month} ${day}, ${displayHours}:${minutes}${ampm}`
+}
+
 export const SCAN_DETAIL = {
-  scanType:'Grey Box', target:'google.com', startedAt:'Nov 22, 09:00AM',
+  scanType:'Grey Box', target:'google.com', startedAt:getCurrentDateTime(),
   credentials:'2 Active', files:'Control.pdf', checklists:'40/350',
   stages:['Spidering','Mapping','Testing','Validating','Reporting'],
   activeStage: 0,

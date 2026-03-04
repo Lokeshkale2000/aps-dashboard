@@ -147,10 +147,33 @@
 .empty { text-align: center; color: #666666; padding: 32px 16px; font-size: 13px; }
 [data-theme="light"] .empty{color:#888888}
 
-@media (max-width: 1024px) { .sevGrid { grid-template-columns: repeat(2,1fr); } }
+@media (max-width: 1024px) { 
+  .sevGrid { grid-template-columns: repeat(2,1fr); }
+  .metaItems { gap: 8px; }
+  .metaSevContainer { margin: 12px 14px; }
+}
+@media (max-width: 768px) {
+  .topbar { padding: 10px 14px; }
+  .topbarRight { width: 100%; justify-content: flex-end; }
+  .metaBar { padding: 9px 14px; }
+  .metaItems { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .metaDot { display: none; }
+  .sevGrid { grid-template-columns: 1fr; }
+  .sevCard { padding: 14px 16px; }
+  .sevCount { font-size: 32px; }
+  .toolbar { padding: 10px 14px; flex-direction: column; align-items: stretch; }
+  .searchWrap { max-width: 100%; }
+  .toolbarBtns { justify-content: space-between; }
+  .table { min-width: 600px; }
+}
 @media (max-width: 640px) {
-  .topbar,.metaBar { padding: 9px 14px; }
+  .topbar, .metaBar { padding: 8px 12px; }
+  .metaSevContainer { margin: 10px 12px; }
   .sevCard { padding: 12px 14px; }
   .sevCount { font-size: 28px; }
+  .sevChange { font-size: 10px; }
+  .metaPair { font-size: 11px; }
+  .table { min-width: 500px; }
+  .th, .table tbody td { padding: 8px 12px; font-size: 11px; }
 }
 
