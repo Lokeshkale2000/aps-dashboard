@@ -8,7 +8,7 @@ import { Ic } from '../components/Icons'
 import { SCAN_DETAIL } from '../data/data'
 import s from './ScanDetail.module.css'
 
-const STAGE_ICONS = ['radar','mapPin','scans','zap','fileText']
+const STAGE_ICONS = ['radar','mapPin','scans','zap','fileText']  
 
 const SEV = {
   critical: { cls:'sev-badge-critical', label:'Critical' },
